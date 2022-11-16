@@ -78,10 +78,10 @@
                                 Choose Account
                             </h5>
                             <div class="btns btnPay mb30-mt25">
-                                <button id="btnBtc"
+<!--                                 <button id="btnBtc"
                                         on:click={() => swapCurrency('BTC')}
                                         class="btn btn-outline ml-0 {currency === 'BTC' ? 'btnActive' : ''}">BTC
-                                </button>
+                                </button> -->
                                 <button id="btnEth"
                                         on:click={() => swapCurrency('ETH')}
                                         class="btn btn-outline {currency === 'ETH' ? 'btnActive' : ''}">
