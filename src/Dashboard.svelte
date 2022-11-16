@@ -95,7 +95,7 @@
     <div class="col-md-6 col-sm-12 col-12 pl-0">
         <h4 class="title">Your Wallets</h4>
 
-        {#if btcAccount}
+<!--         {#if btcAccount}
             <div class="card cardWalet">
                 <div class="card-body cardBodyP20">
                     <div class="row">
@@ -131,7 +131,7 @@
                     </div>
                 </div>
             </div>
-        {/if}
+        {/if} -->
         {#if ethAccount}
             <div class="card cardWalet mt-4">
                 <div class="card-body cardBodyP20">
@@ -177,9 +177,9 @@
         <div class="col-md-6 col-sm-12 col-12 pl-0">
             <h4 class="title">Latest Transactions</h4>
             <div class="btns mb20">
-                <button class="btn btn-outline {filter === 'BTC' ? 'btn-outline-active' : ''}"
+<!--                 <button class="btn btn-outline {filter === 'BTC' ? 'btn-outline-active' : ''}"
                         on:click={() => getTransactionForAccount('BTC')}>BTC
-                </button>
+                </button> -->
                 <button class="btn btn-outline {filter === 'ETH' ? 'btn-outline-active' : ''}"
                         on:click={() => getTransactionForAccount('ETH')}>ETH
                 </button>
