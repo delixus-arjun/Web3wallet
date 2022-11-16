@@ -3,7 +3,7 @@
 Clone the repository
 
 ```bash
-git clone https://github.com/tatumio/tatum-wallet.git
+git clone https://github.com/delixus-arjun/Web3wallet.git
 
 cd tatum-wallet
 ```
