@@ -5,7 +5,7 @@ Clone the repository
 ```bash
 git clone https://github.com/delixus-arjun/Web3wallet.git
 
-cd tatum-wallet
+cd Web3wallet
 ```
 
 Install the dependencies...
