@@ -24,7 +24,7 @@ Navigate to [localhost:8080](http://localhost:8080). You should see your app run
 
 ## Tatum API configuration
 
-In order to communicate with [Tatum API](https://tatum.io), API Key must be provided in *.env* file. Create *.env* file and enter valid API Key. 
+In order to communicate with [Tatum API](https://tatum.io), API Key must be provided in *.env* file. Create *.env* file and paste in it .env file. 
 ```dotenv
 TATUM_API_KEY = d00ddab8-d6b4-4e3b-a57a-794b7ca64b3d
 ```
