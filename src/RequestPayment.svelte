@@ -76,8 +76,8 @@
 <!--                                 <button
                                         on:click={() => swapCurrency('BTC')}
                                         id="btnBtc"
-                                        class="btn btn-outline ml-0 {currency === 'BTC' ? 'btnActive' : ''}">BTC -->
-                                </button>
+                                        class="btn btn-outline ml-0 {currency === 'BTC' ? 'btnActive' : ''}">BTC 
+                                </button>-->
                                 <button
                                         on:click={() => swapCurrency('ETH')}
                                         id="btnEth" class="btn btn-outline {currency === 'ETH' ? 'btnActive' : ''}">
