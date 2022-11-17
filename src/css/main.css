@@ -1,0 +1,501 @@
+/* @font-face {
+  font-family: HighTide-Demo;
+  src: url(HighTide-Demo.ttf);
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: Poppins-Light;
+  src: url(Poppins-Light.ttf);
+} */
+
+/* 
+@media only screen and (min-width: 1050px) and (max-width: 1270px)  {
+.descriptionBox1{
+  margin-bottom: 10px!important;
+}
+} */
+body {
+    background-color: #f5f7fa;
+}
+
+.navbar {
+    background-color: #613AEA;
+    height: 72px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-family: PT Sans;
+}
+
+.pr-122 {
+    padding-right: 25px;
+    padding-left: 20%;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.m7 {
+    padding: 0 15px;
+}
+
+@media (max-width: 576px) {
+    .navbar-expand-sm .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+    .pr-122 {
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+
+    .navbar-nav {
+        margin-top: -10px;
+    }
+
+    .m7 {
+        padding: 0;
+    }
+}
+
+.nav-link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.active {
+    font-weight: bold !important;
+}
+
+@media (max-width: 430px) {
+    .imgDiv {
+        width: 80px !important;
+        margin-top: 7px;
+    }
+
+    .nav-link {
+        font-size: 13px;
+    }
+
+    .navbar-nav {
+        margin-left: -35px;
+    }
+}
+
+nav .nl {
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav .nl:hover {
+    border-bottom: 3px solid white;
+}
+
+.title {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #2C2E2F;
+}
+
+.cardWalet {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+    border: none;
+    max-width: 90%;
+}
+
+.cardTrans {
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-outline {
+    font-family: PT Sans;
+    border: 1px solid #613AEA;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 80px;
+    height: 30px;
+    line-height: 14px;
+    margin: 0 8px;
+}
+
+.btn-outline:hover, .btn-outline-active {
+    color: white;
+    background-color: #613AEA;
+}
+
+.containerMain {
+    padding: 0 15vw;
+}
+
+.cardSubHeading {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #613AEA;
+}
+
+.icoRight {
+    float: right;
+}
+
+.icoRight img {
+    width: 60px;
+    position: relative;
+    top: -30px;
+}
+
+.totalBalance {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 52px;
+    color: #2C2E2F;
+}
+
+.amountDol {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #687173;
+}
+
+.code {
+    color: #2C2E2F;
+}
+
+.btn-outlineSR {
+    background: #613AEA;
+    border-radius: 15px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+    height: 30px;
+    width: 120px;
+}
+
+.btn-outlineSR:hover {
+    color: white;
+    box-shadow: 2px 2px 3px #00000070;
+}
+
+.date {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    color: #2C2E2F;
+}
+
+.id {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #687173;
+}
+
+.amt {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+
+    color: #2C2E2F;
+}
+
+.amtDol {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #687173;
+}
+
+hr {
+    border: 1px dashed #687173;
+}
+
+.atag {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    cursor: pointer;
+    color: #613AEA !important;
+}
+
+.sendPaymentCard {
+    background: #FFFFFF;
+    border: none;
+}
+
+.inputStyle {
+    background: #FFFFFF;
+    border: 1px solid #B7BCBF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 27px;
+    font-family: PT Sans;
+}
+
+.btn-sub {
+    font-family: PT Sans;
+    border: 1px solid #B7BCBF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 8px 35px;
+}
+
+.btn-sub:hover {
+    box-shadow: 2px 2px 3px #00000070;
+    color: white;
+}
+
+.cardp {
+    padding: 6.3vh 4.9vw;
+}
+
+.btnActive {
+    background: #613AEA;
+    color: white;
+}
+
+.navBar2 {
+    background-color: white;
+    height: 52px;
+}
+
+.navBar2 ul li a {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    color: #2C2E2F;
+}
+
+.reqTxt {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #687173;
+}
+
+.txtcolr {
+    color: #2C2E2F !important;
+}
+
+.qrImgDiv {
+    width: 250px;
+    margin-top: -27px;
+    margin-left: 9px;
+}
+
+.qrImg {
+    width: 100%;
+}
+
+.subNavActive {
+    color: #613AEA !important;
+    border-bottom: 3px solid #613AEA !important;
+}
+
+nav .nl2 {
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav .nl2:hover {
+    border-bottom: 3px solid #613AEA;
+}
+
+@media (max-width: 1985px) {
+    .pr-122 {
+        padding-left: 12vw;
+    }
+
+    .pl-122 {
+        padding-left: 13.7vw;
+    }
+}
+
+@media (max-width: 1445px) {
+    .pr-122 {
+        padding-left: 10.5vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .pr-122 {
+        padding-left: 8.5vw;
+    }
+
+    .pl-122 {
+        padding-left: 12.7vw;
+    }
+
+    .amt {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 770px) {
+    .pr-122 {
+        padding-left: 6vw;
+    }
+
+    .pl-122 {
+        padding-left: 11.7vw;
+    }
+
+    .cardWalet {
+        max-width: 100%;
+    }
+
+    .btn-outlineSR {
+        width: 100%;
+        margin: 7px;
+    }
+
+    .totalBalance {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 425px) {
+    .pr-122 {
+        padding-left: 10vw;
+    }
+
+    .pl-122 {
+        padding-left: 16.7vw;
+    }
+
+    .cardWalet {
+        max-width: 100%;
+    }
+
+    .title {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .btns {
+        text-align: center;
+    }
+
+    .btnPay {
+        text-align: left;
+    }
+}
+
+@media (max-width: 380px) {
+    .pr-122 {
+        padding-left: 9vw;
+    }
+
+    .cardWalet {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 325px) {
+    .pr-122 {
+        padding-left: 8vw;
+    }
+
+    .cardWalet {
+        max-width: 100%;
+    }
+
+    .qrImgDiv {
+        width: 220px;
+    }
+}
+
+.cardBodyP20 {
+    padding: 20px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.pr5 {
+    padding-right: 5px;
+}
+
+.m5-6 {
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.pl65 {
+    padding-left: 65px;
+}
+
+.mb30-mt25 {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.mtb10 {
+    margin: 10px 0;
+}
+
+.m5020 {
+    margin: 5px 0 20px 0;
+}
